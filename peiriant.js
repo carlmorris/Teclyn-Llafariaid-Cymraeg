@@ -61,15 +61,10 @@ var cynnwys= ["Mae hen wlad fy nhadau yn annwyl i mi,\nGwlad beirdd a chantorion
 // rhoi testun cyflym yn y blwch
 function gosodcynnwys(rhif) {
 
-	switch(rhif) {
-		case 0: document.getElementById("lletestun").value = cynnwys[0]; break;
-		case 1: document.getElementById("lletestun").value = cynnwys[1]; break;
-		case 2: document.getElementById("lletestun").value = cynnwys[2]; break;
-		case 3: document.getElementById("lletestun").value = cynnwys[3]; break;
-		case 4: document.getElementById("lletestun").value = cynnwys[4]; break;
-		case 5: document.getElementById("lletestun").value = cynnwys[5]; break;
-		default: console.log("gwall");
-	}
+	if(rhif >= 0 && rhif < cynnwys.length)
+		document.getElementById("lletestun").value = cynnwys[rhif];
+	else
+		console.log("gwall");
 	
 	wedinewid();
 }
