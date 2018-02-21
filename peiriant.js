@@ -51,7 +51,7 @@ var cynnwys= ["Mae hen wlad fy nhadau yn annwyl i mi,\nGwlad beirdd a chantorion
 
 "Yr iach a gâch yn y bore,\nA'r afiach a gâch yn yr hwyr.\nYr afiach a gâch yn ddarnau bach,\nA'r iach a gâch yn llwyr.",
 
-"a, b, c, ch, d, dd, e, f, ff, g, ng, h, i, l, ll, m, n, o, p, ph, r, s, t, th, u, w, y",
+"a, b, c, ch, d, dd, e, f, ff, g, ng, h, i, l, ll, m, n, o, p, ph, r, rh, s, t, th, u, w, y",
 
 "Annwyl bawb. Yr wyf bellach wedi dysgu bod 7 llafariad yn Gymraeg. Mae'n ddrwg gen i am fy anwybodaeth llwyr. #twpdra.",
 
