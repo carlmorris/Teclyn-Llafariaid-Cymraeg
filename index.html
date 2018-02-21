@@ -1,0 +1,56 @@
+<!--
+Nid yw hon yn wirydd gramadeg, sillafu na chynghanedd.
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welsh Language Vowel Locator</title>
+<meta charset="utf-8">
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+<script type="text/javascript" src="peiriant.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="arddull.css" />
+
+<meta property="og:site_name" content="Carl Morris" />
+<meta name="twitter:creator" content="@carlmorris" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Welsh Language Vowel Locator" />
+<meta property="og:url" content="https://morris.cymru/vowels" />
+<meta property="og:description" content="Are you perturbed by the modern European language of WELSH? Do you struggle to locate vowels in its written form? Are you at risk of spreading orthographical misinformation via social or other media?" />
+<meta property="og:image" content="https://morris.cymru/vowels/llafariaid.jpg" />
+ 
+</head>
+
+<body>
+
+<div class="prifardal" id="prifardal">
+	<div class="ardaldisgrifiad">
+	<ul>
+	<li>Are you perturbed by the modern European language of WELSH?</li>
+	<li>Do you struggle to find vowels in its written form?</li>
+	<li>Are you at risk of spreading orthographical misinformation via social or other media?</li>
+	<li>If so, boost your awareness and confidence with the...</li>
+	</ul>
+	<h1>Welsh Language Vowel Locator</h1>
+	</div>
+
+	<div class="ardaltestun">
+	<textarea id="lletestun" rows="3" onClick="DetholPopeth('lletestun');" onkeyup="wedinewid(lletestun);" maxlength="500" accept-charset="utf-8" placeholder="Type or paste some text in Welsh here."></textarea>
+	</div>
+
+	<div id="sampl">
+	Or use quick texts: <a id="cynnwys0" onClick="gosodcynnwys(0);">A song</a> | <a id="cynnwys1" onClick="gosodcynnwys(1);">Coastline stations of northern Wales</a> | <a id="cynnwys2" onClick="gosodcynnwys(2);">Everyday sayings</a> | <a id="cynnwys3" onClick="gosodcynnwys(3);">A poem</a> | <a id="cynnwys4" onClick="gosodcynnwys(4);">Alphabet</a> | <a id="cynnwys5" onClick="gosodcynnwys(5);">Your very next tweet</a>
+	</div>
+
+	<div class="ardalcanlyniad" id="canlyniad"></div>
+
+<!--
+	<div id="gwyb">
+	Generously funded by English council tax somehow
+	</div>
+-->
+
+</div>
+
+</body>
+</html>
